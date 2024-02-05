@@ -33,6 +33,7 @@ GameObject:
   - component: {fileID: 114054694347665166}
   - component: {fileID: 114416823968638688}
   - component: {fileID: 943545352713886185}
+  - component: {fileID: 8627157534632897162}
   m_Layer: 9
   m_Name: space-corgi-sword
   m_TagString: Player
@@ -100,7 +101,7 @@ SpriteRenderer:
   m_SortingLayerID: 600026165
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 49de0d73ebe3eaf4298c2e73fac4e8ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa30b30165cad7f498fe07b6fc249853, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,7 +148,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
+    oldSize: {x: 1.45, y: 1.45}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -690,7 +691,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 114000010616902070, guid: 6ca0f70388c15f64385fa41121dd571f,
+  InitialWeapon: {fileID: 114000010078180980, guid: b91a21dc5285f6745ae33be1c2102574,
     type: 3}
   CanPickupWeapons: 0
   WeaponAttachment: {fileID: 0}
@@ -846,6 +847,42 @@ MonoBehaviour:
   SuccessiveDashResetDuration: 2
   InvincibleWhileDashing: 0
   TargetDamageOnTouch: {fileID: 2879069864481321406}
+--- !u!114 &8627157534632897162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3141ca867f14a464ab5c3a815142ad80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  InitialWeapon: {fileID: 114000010616902070, guid: 2bdf8501a7b7ef34c933ab28507dea10,
+    type: 3}
+  CanPickupWeapons: 1
+  WeaponAttachment: {fileID: 0}
+  ForceWeaponScaleResetOnEquip: 0
+  ForceWeaponRotationResetOnEquip: 0
+  AutomaticallyBindAnimator: 1
+  AmmoDisplayID: 0
+  ContinuousPress: 0
+  GettingHitInterruptsAttack: 0
+  CanShootFromLadders: 0
+  FaceWeaponDirection: 0
+  InvertHorizontalAimWhenWallclinging: 0
+  ForceAlwaysShoot: 0
+  BufferInput: 0
+  NewInputExtendsBuffer: 0
+  MaximumBufferDuration: 0.25
+  CurrentWeapon: {fileID: 0}
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
