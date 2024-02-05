@@ -252,61 +252,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Numpad8456",
-                    "id": "378d77b0-6455-43e3-9d14-c95d2eb505da",
-                    "path": "2DVector(mode=2)",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "PrimaryMovement",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "2f955bbd-d95d-4e54-a9a1-8a20d67f5a78",
-                    "path": "<Keyboard>/numpad8",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Player 2 Keyboard",
-                    "action": "PrimaryMovement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "fa3e7dd7-ee82-4318-9ff0-b66905a506ae",
-                    "path": "<Keyboard>/numpad5",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Player 2 Keyboard",
-                    "action": "PrimaryMovement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "df2825fe-b3d8-4ea6-ab47-1a2476e366e7",
-                    "path": "<Keyboard>/numpad4",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Player 2 Keyboard",
-                    "action": "PrimaryMovement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "434816e0-4648-4cef-b55b-5db556bd1464",
-                    "path": "<Keyboard>/numpad6",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Player 2 Keyboard",
-                    "action": "PrimaryMovement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "",
                     "id": "157de9f0-00a9-4767-9eca-18eb35914def",
                     "path": "<Gamepad>/leftStick",
@@ -745,17 +690,6 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Player 2 Keyboard",
-            "bindingGroup": "Player 2 Keyboard",
-            "devices": [
-                {
-                    "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
                 }
