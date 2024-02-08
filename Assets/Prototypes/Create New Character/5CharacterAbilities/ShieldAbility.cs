@@ -9,6 +9,7 @@ namespace Prototypes.Create_New_Character._5CharacterAbilities
     {
         public float shieldStrength = 25f;
         public GameObject shieldSprite;
+        private Health characterHealth;
 
         // Animation parameters
         protected const string _todoParameterName = "TODO";
@@ -50,12 +51,13 @@ namespace Prototypes.Create_New_Character._5CharacterAbilities
         private void ShieldOff()
         {
             if (shieldSprite is not null) shieldSprite.gameObject.SetActive(false);
+            _character.CharacterHealth.Invulnerable = false;
         }
 
         private void Shield()
         {
-            Debug.Log("Shield");
             if (shieldSprite is not null) shieldSprite.gameObject.SetActive(true);
+            _character.CharacterHealth.Invulnerable = true;
         }
 
         /// <summary>
