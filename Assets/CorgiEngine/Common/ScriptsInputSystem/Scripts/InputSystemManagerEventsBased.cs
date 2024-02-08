@@ -33,6 +33,7 @@ namespace MoreMountains.CorgiEngine
         public void OnSwitchCharacter(InputValue value) { BindButton(value, SwitchCharacterButton); }
         public void OnTimeControl(InputValue value) { BindButton(value, TimeControlButton); }
         public void OnSwim(InputValue value) { BindButton(value, SwimButton); }
+        public void OnShield(InputValue value) { BindButton(value, ShieldButton); }
         public void OnGlide(InputValue value) { BindButton(value, GlideButton); }
         public void OnJetpack(InputValue value) { BindButton(value, JetpackButton); }
         public void OnFly(InputValue value) { BindButton(value, FlyButton); }

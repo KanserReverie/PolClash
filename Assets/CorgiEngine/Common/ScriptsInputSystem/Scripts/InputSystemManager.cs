@@ -55,8 +55,8 @@ namespace MoreMountains.CorgiEngine
             InputActions.PlayerControls.SwitchCharacter.performed += context => { BindButton(context, SwitchCharacterButton); };
             InputActions.PlayerControls.TimeControl.performed += context => { BindButton(context, TimeControlButton); };
             InputActions.PlayerControls.Roll.performed += context => { BindButton(context, RollButton); };
-
             InputActions.PlayerControls.Swim.performed += context => { BindButton(context, SwimButton); };
+            InputActions.PlayerControls.Shield.performed += context => { BindButton(context, ShieldButton); };
             InputActions.PlayerControls.Glide.performed += context => { BindButton(context, GlideButton); };
             InputActions.PlayerControls.Jetpack.performed += context => { BindButton(context, JetpackButton); };
             InputActions.PlayerControls.Fly.performed += context => { BindButton(context, FlyButton); };

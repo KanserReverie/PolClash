@@ -96,6 +96,8 @@ namespace MoreMountains.CorgiEngine
 		public MMInput.IMButton JumpButton { get; protected set; }
 		/// the swim button, used to swim
 		public MMInput.IMButton SwimButton { get; protected set; }
+		/// the shield button, used to shield
+		public MMInput.IMButton ShieldButton { get; protected set; }
 		/// the glide button, used to glide in the air
 		public MMInput.IMButton GlideButton { get; protected set; }
 		/// the activate button, used for interactions with zones
@@ -237,6 +239,7 @@ namespace MoreMountains.CorgiEngine
 			ButtonList.Add(TimeControlButton = new MMInput.IMButton(PlayerID, "TimeControl", TimeControlButtonDown, TimeControlButtonPressed, TimeControlButtonUp));
 			ButtonList.Add(GrabButton = new MMInput.IMButton(PlayerID, "Grab", GrabButtonDown, GrabButtonPressed, GrabButtonUp));
 			ButtonList.Add(ThrowButton = new MMInput.IMButton(PlayerID, "Throw", ThrowButtonDown, ThrowButtonPressed, ThrowButtonUp));
+			ButtonList.Add(ShieldButton = new MMInput.IMButton(PlayerID, "Shield", ShieldButtonDown, ShieldButtonPressed, ShieldButtonUp));
 		}
 
 		/// <summary>
@@ -585,6 +588,10 @@ namespace MoreMountains.CorgiEngine
 		public virtual void ThrowButtonDown() { ThrowButton.State.ChangeState(MMInput.ButtonStates.ButtonDown); }
 		public virtual void ThrowButtonPressed() { ThrowButton.State.ChangeState(MMInput.ButtonStates.ButtonPressed); }
 		public virtual void ThrowButtonUp() { ThrowButton.State.ChangeState(MMInput.ButtonStates.ButtonUp); }
+		
+		public virtual void ShieldButtonDown() { ShieldButton.State.ChangeState(MMInput.ButtonStates.ButtonDown); }
+		public virtual void ShieldButtonPressed() { ShieldButton.State.ChangeState(MMInput.ButtonStates.ButtonPressed); }
+		public virtual void ShieldButtonUp() { ShieldButton.State.ChangeState(MMInput.ButtonStates.ButtonUp); }
 
 	}
 }

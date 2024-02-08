@@ -809,6 +809,7 @@ namespace MoreMountains.CorgiEngine
         private readonly InputAction m_PlayerControls_SecondaryMovement;
         private readonly InputAction m_PlayerControls_Jump;
         private readonly InputAction m_PlayerControls_Swim;
+        private readonly InputAction m_PlayerControls_Shield;
         private readonly InputAction m_PlayerControls_Glide;
         private readonly InputAction m_PlayerControls_Jetpack;
         private readonly InputAction m_PlayerControls_Fly;
@@ -834,6 +835,7 @@ namespace MoreMountains.CorgiEngine
             public InputAction @SecondaryMovement => m_Wrapper.m_PlayerControls_SecondaryMovement;
             public InputAction @Jump => m_Wrapper.m_PlayerControls_Jump;
             public InputAction @Swim => m_Wrapper.m_PlayerControls_Swim;
+            public InputAction @Shield => m_Wrapper.m_PlayerControls_Shield;
             public InputAction @Glide => m_Wrapper.m_PlayerControls_Glide;
             public InputAction @Jetpack => m_Wrapper.m_PlayerControls_Jetpack;
             public InputAction @Fly => m_Wrapper.m_PlayerControls_Fly;
