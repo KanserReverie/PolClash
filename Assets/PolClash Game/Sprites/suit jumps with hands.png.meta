@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: suit jumps with hands_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 95
+        width: 100
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8a229bf9e0a9c43af9f141a2ca5dae
+      internalID: 2044188350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit jumps with hands_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 94
+        width: 93
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ec1dd1c41d1243b8226a6da486313
+      internalID: 1335665154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit jumps with hands_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 87
+        width: 125
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c5b87d216c2d48a6894613d6b209c
+      internalID: -2004739992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit jumps with hands_4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 106
+        width: 106
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b46fe6a4d55204a99efa6951f2eb7c
+      internalID: 1995459716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit jumps with hands_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 102
+        width: 98
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fc23a89de529f4bad3400f3ae86d4b
+      internalID: -1364834644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit jumps with hands_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 102
+        width: 96
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e0c0214db4294aa8a93c00f2b62d4
+      internalID: 1811402845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      suit jumps with hands_0: 2044188350
+      suit jumps with hands_1: 1335665154
+      suit jumps with hands_2: -1893786200
+      suit jumps with hands_3: -2004739992
+      suit jumps with hands_4: 1995459716
+      suit jumps with hands_5: -1364834644
+      suit jumps with hands_6: 1811402845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
