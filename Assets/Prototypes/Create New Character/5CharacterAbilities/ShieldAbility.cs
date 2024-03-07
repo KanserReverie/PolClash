@@ -12,7 +12,7 @@ namespace Prototypes.Create_New_Character._5CharacterAbilities
         private Health characterHealth;
 
         // Animation parameters
-        protected const string _todoParameterName = "TODO";
+        protected const string _shieldAnimation = "Shield";
         protected int _todoAnimationParameter;
 
         /// <summary>
@@ -87,7 +87,7 @@ namespace Prototypes.Create_New_Character._5CharacterAbilities
         /// </summary>
         protected override void InitializeAnimatorParameters()
         {
-            RegisterAnimatorParameter(_todoParameterName, AnimatorControllerParameterType.Bool, out _todoAnimationParameter);
+            RegisterAnimatorParameter(_shieldAnimation, AnimatorControllerParameterType.Bool, out _todoAnimationParameter);
         }
 
         /// <summary>

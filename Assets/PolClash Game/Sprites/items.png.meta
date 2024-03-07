@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: items_0
+      name: weapon_Sword
       rect:
         serializedVersion: 2
         x: 58
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_1
+      name: weapon_Gun
       rect:
         serializedVersion: 2
         x: 382
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_2
+      name: weapon_CricketBat
       rect:
         serializedVersion: 2
         x: 688
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_4
+      name: weapon_Dagger
       rect:
         serializedVersion: 2
         x: 236
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_5
+      name: weapon_Laptop
       rect:
         serializedVersion: 2
         x: 382
@@ -225,13 +225,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      items_0: -1215721984
-      items_1: 1543697601
-      items_2: -2061480586
       items_3: 1982742358
-      items_4: 1213704797
-      items_5: 702986854
       items_6: -312007147
+      weapon_CricketBat: -2061480586
+      weapon_Dagger: 1213704797
+      weapon_Gun: 1543697601
+      weapon_Laptop: 702986854
+      weapon_Sword: -1215721984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
