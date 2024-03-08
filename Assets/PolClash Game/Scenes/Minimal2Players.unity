@@ -1976,6 +1976,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5414749069829835502, guid: f98a01a32fd172f449879581d6ab5715,
+        type: 3}
+      propertyPath: BlockingMovementStates.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414749069829835502, guid: f98a01a32fd172f449879581d6ab5715,
+        type: 3}
+      propertyPath: BlockingConditionStates.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -75,7 +75,7 @@ MonoBehaviour:
   PermanentMovementMultiplier: 0
   ModifyMovementWhileAttacking: 0
   MovementMultiplier: 0
-  AlwaysResetMultiplierToInitial: 1
+  AlwaysResetMultiplierToInitial: 0
   PreventHorizontalGroundMovementWhileInUse: 0
   PreventHorizontalAirMovementWhileInUse: 0
   SetForceWhileInUse: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
   StartAnimationParameter: MeleeAttacking
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: MeleeAttacking
+  UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   InCooldownAnimationParameter: 
   StopAnimationParameter: 
@@ -155,7 +155,7 @@ MonoBehaviour:
     RecoilFeedback: {fileID: 0}
   MeleeDamageAreaMode: 0
   DamageAreaShape: 0
-  AreaOffset: {x: 1, y: 0}
+  AreaOffset: {x: 2.4, y: 0}
   AreaSize: {x: 1, y: 1}
   ExistingDamageArea: {fileID: 0}
   InitialDelay: 0

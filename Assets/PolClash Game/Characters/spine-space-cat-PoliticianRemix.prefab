@@ -6453,7 +6453,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 114000010078180980, guid: b91a21dc5285f6745ae33be1c2102574,
+  InitialWeapon: {fileID: 114000010078180980, guid: ef1271fc814a9174f9ec99754a327416,
     type: 3}
   CanPickupWeapons: 0
   WeaponAttachment: {fileID: 0}
