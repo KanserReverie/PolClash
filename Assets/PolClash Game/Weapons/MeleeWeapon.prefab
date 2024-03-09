@@ -51,7 +51,7 @@ MonoBehaviour:
   Interruptable: 0
   InitializeOnStart: 0
   DelayBeforeUse: 0
-  DelayBeforeUseReleaseInterruption: 1
+  DelayBeforeUseReleaseInterruption: 0
   TimeBetweenUses: 1
   TimeBetweenUsesReleaseInterruption: 1
   CooldownDuration: 0
@@ -83,9 +83,9 @@ MonoBehaviour:
   DisableGravityWhileInUse: 0
   PreventFlipWhileInUse: 0
   Animators: []
-  MirrorCharacterAnimatorParameters: 0
+  MirrorCharacterAnimatorParameters: 1
   EquippedAnimationParameter: 
-  IdleAnimationParameter: 
+  IdleAnimationParameter: Idle
   StartAnimationParameter: MeleeAttacking
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
