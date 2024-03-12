@@ -2147,7 +2147,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1785689892}
         m_TargetAssemblyTypeName: PolClash_Game.Scripts.MainMenuManager, Assembly-CSharp
-        m_MethodName: Exit
+        m_MethodName: ExitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2667,6 +2667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17724da10ff38a4a97c20280d4b78e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startPage: {fileID: 0}
+  selectCharacter: {fileID: 0}
+  selectLevel: {fileID: 0}
 --- !u!1 &1837065215
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,7 +3292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1624520046802817342
 Transform:
   m_ObjectHideFlags: 0
