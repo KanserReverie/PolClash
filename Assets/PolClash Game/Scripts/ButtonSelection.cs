@@ -7,7 +7,6 @@ namespace PolClash_Game.Scripts
     public class ButtonSelection : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         public Image imageToTurnOn;
-
         public void OnSelect(BaseEventData eventData)
         {
             if (imageToTurnOn != null)
