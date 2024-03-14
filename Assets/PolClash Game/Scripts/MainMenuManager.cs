@@ -21,7 +21,12 @@ namespace PolClash_Game.Scripts
         public Button selectKevinRuddButton;
         public Button selectTonyAbortButton;
         
+        [Header("Select Level")]
         public GameObject selectLevel;
+        public Button selectSchoolGroundButton;
+        public Button selectOperaHouseButton;
+        public Button selectMaccasButton;
+        public Button selectExitButton; // Reset Scene
         
         
         private PoliticalManager politicalManager;
@@ -35,6 +40,8 @@ namespace PolClash_Game.Scripts
                     selectCharacter.gameObject.SetActive(false);
                     selectLevel.gameObject.SetActive(false);
                     MainMenuOpenMenu = MainMenuMenus.StartPage;
+                    politicalManager = FindObjectOfType<PoliticalManager>();
+                    politicalManager.ClearAllOptions();
                     break;
                 case MainMenuMenus.Player1SelectCharacter:
                     startPage.gameObject.SetActive(false);
@@ -54,6 +61,7 @@ namespace PolClash_Game.Scripts
                     selectCharacter.gameObject.SetActive(false);
                     selectLevel.gameObject.SetActive(true);
                     MainMenuOpenMenu = MainMenuMenus.SelectLevel;
+                    OrgainiseSelectLevel();
                     break;
                 case MainMenuMenus.None:
                     startPage.gameObject.SetActive(false);
@@ -65,15 +73,15 @@ namespace PolClash_Game.Scripts
                     throw new ArgumentOutOfRangeException(nameof(menu), menu, null);
             }
         }
-
-
+        
+        
         private void Start()
         {
             MenuSelected(MainMenuMenus.StartPage);
             politicalManager = FindObjectOfType<PoliticalManager>();
             OrgainiseStartPage();
         }
-
+        
 
         // START PAGE BUTTONS
         private void OrgainiseStartPage()
@@ -99,7 +107,6 @@ namespace PolClash_Game.Scripts
             selectJuliaGillardButton.onClick.AddListener(PlayerSelectJuliaGillard);
             selectKevinRuddButton.onClick.AddListener(PlayerSelectKevinRudd);
             selectTonyAbortButton.onClick.AddListener(PlayerSelectTonyAbort);
-            
             selectJohnHowardButton.Select();
         }
         public void PlayerSelectJohnHoward()
@@ -107,30 +114,96 @@ namespace PolClash_Game.Scripts
             if (MainMenuOpenMenu == MainMenuMenus.Player1SelectCharacter)
             {
                 politicalManager.player1CharacterSelected = Politician.JohnHoward;
+                selectJohnHowardButton.interactable = false;
+                MenuSelected(MainMenuMenus.Player2SelectCharacter);
+                selectJuliaGillardButton.Select();
             }
             else if (MainMenuOpenMenu == MainMenuMenus.Player2SelectCharacter)
+            {
                 politicalManager.player2CharacterSelected = Politician.JohnHoward;
+                MenuSelected(MainMenuMenus.SelectLevel);
+            }
         }
         public void PlayerSelectJuliaGillard()
         {
             if (MainMenuOpenMenu == MainMenuMenus.Player1SelectCharacter)
+            {
                 politicalManager.player1CharacterSelected = Politician.JuliaGillard;
+                selectJuliaGillardButton.interactable = false;
+                MenuSelected(MainMenuMenus.Player2SelectCharacter);
+                selectJohnHowardButton.Select();
+            }
             else if (MainMenuOpenMenu == MainMenuMenus.Player2SelectCharacter)
+            {
                 politicalManager.player2CharacterSelected = Politician.JuliaGillard;
+                MenuSelected(MainMenuMenus.SelectLevel);
+            }
         }
         public void PlayerSelectKevinRudd()
         {
             if (MainMenuOpenMenu == MainMenuMenus.Player1SelectCharacter)
+            {
                 politicalManager.player1CharacterSelected = Politician.KevinRudd;
+                selectKevinRuddButton.interactable = false;
+                MenuSelected(MainMenuMenus.Player2SelectCharacter);
+                selectJohnHowardButton.Select();
+            }
             else if (MainMenuOpenMenu == MainMenuMenus.Player2SelectCharacter)
+            {
                 politicalManager.player2CharacterSelected = Politician.KevinRudd;
+                MenuSelected(MainMenuMenus.SelectLevel);
+            }
         }
         public void PlayerSelectTonyAbort()
         {
             if (MainMenuOpenMenu == MainMenuMenus.Player1SelectCharacter)
+            {
                 politicalManager.player1CharacterSelected = Politician.TonyAbort;
+                selectTonyAbortButton.interactable = false;
+                MenuSelected(MainMenuMenus.Player2SelectCharacter);
+                selectJohnHowardButton.Select();
+            }
             else if (MainMenuOpenMenu == MainMenuMenus.Player2SelectCharacter)
+            {
                 politicalManager.player2CharacterSelected = Politician.TonyAbort;
+                MenuSelected(MainMenuMenus.SelectLevel);
+            }
+        }
+        
+        // ORGANISE LEVEL SELECT BUTTONS
+        private void OrgainiseSelectLevel()
+        {
+            selectSchoolGroundButton.onClick.AddListener(LevelSelectSchoolGround);
+            selectOperaHouseButton.onClick.AddListener(LevelSelectOperaHouse);
+            selectMaccasButton.onClick.AddListener(LevelSelectMaccas);
+            selectExitButton.onClick.AddListener(LevelSelectExitButton);
+            
+            selectSchoolGroundButton.Select();
+        }
+
+
+        private void LevelSelectSchoolGround()
+        {
+            politicalManager.levelSelected = Level.SchoolGround;
+            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
+        }
+
+        private void LevelSelectOperaHouse()
+        {
+            politicalManager.levelSelected = Level.OperaHouse;
+            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
+        }
+
+        private void LevelSelectMaccas()
+        {
+            politicalManager.levelSelected = Level.Maccas;
+            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
+        }
+        
+        private void LevelSelectExitButton()
+        {
+            MenuSelected(MainMenuMenus.StartPage);
+            Debug.Log("-Please Start Again-");
         }
     }
 }
