@@ -3963,7 +3963,7 @@ MonoBehaviour:
   selectLevel: {fileID: 1368174426}
   selectSchoolGroundButton: {fileID: 2021488082}
   selectOperaHouseButton: {fileID: 1480283474}
-  selectMaccasButton: {fileID: 1480283474}
+  selectMaccasButton: {fileID: 1497233271}
   selectExitButton: {fileID: 1503588559}
 --- !u!1 &1829998843
 GameObject:
