@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5307986628754681595
 MonoBehaviour:
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefabs:
   - {fileID: 11400450, guid: f98a01a32fd172f449879581d6ab5715, type: 3}
-  - {fileID: 11488376, guid: dc9c7abc0e6c9c9419fac0567439c7cf, type: 3}
+  - {fileID: 11400450, guid: f98a01a32fd172f449879581d6ab5715, type: 3}
   AutoAttributePlayerIDs: 1
   SceneCharacters: []
   DebugSpawn: {fileID: 0}

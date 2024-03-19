@@ -4701,7 +4701,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 36059a6b5a5000a469004894f2d1d69e, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4791,7 +4790,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000010407495960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.934681, y: 14.52945, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4882,11 +4881,11 @@ MonoBehaviour:
   Animators: []
   MirrorCharacterAnimatorParameters: 0
   EquippedAnimationParameter: 
-  IdleAnimationParameter: 
-  StartAnimationParameter: MeleeAttacking
+  IdleAnimationParameter: Idle
+  StartAnimationParameter: Firing
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: MeleeAttacking
+  UseAnimationParameter: Firing
   DelayBetweenUsesAnimationParameter: 
   InCooldownAnimationParameter: 
   StopAnimationParameter: 
@@ -4905,14 +4904,14 @@ MonoBehaviour:
   WeaponOnHitDamageableFeedback: {fileID: 0}
   WeaponOnHitNonDamageableFeedback: {fileID: 0}
   WeaponOnKillFeedback: {fileID: 0}
-  ApplyRecoilOnUse: 0
+  ApplyRecoilOnUse: 1
   RecoilOnUseProperties:
-    RecoilForceGrounded: 10
-    RecoilForceAirborne: 10
+    RecoilForceGrounded: 1
+    RecoilForceAirborne: 1
     RecoilAngleModifier: 0
     DirectionMultiplier: {x: 1, y: 1}
     RecoilStyle: 2
-    Delay: 0
+    Delay: 0.23
     RecoilFeedback: {fileID: 0}
   ApplyRecoilOnHitDamageable: 0
   RecoilOnHitDamageableProperties:
@@ -4951,13 +4950,13 @@ MonoBehaviour:
     Delay: 0
     RecoilFeedback: {fileID: 0}
   ProjectileSpawnTransform: {fileID: 0}
-  ProjectileSpawnOffset: {x: 0.7, y: 0, z: 0}
+  ProjectileSpawnOffset: {x: 1.7, y: 2, z: 0}
   ProjectilesPerShot: 1
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
   ObjectPooler: {fileID: 0}
-  SpawnPosition: {x: 12.634681, y: 14.52945, z: 0}
+  SpawnPosition: {x: 1.7, y: 2, z: 0}
 --- !u!114 &114000011218126282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4973,7 +4972,7 @@ MonoBehaviour:
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
   NestUnderThis: 0
-  GameObjectToPool: {fileID: 100002, guid: c7a2328e2057cf747afceb7c07d5a660, type: 3}
+  GameObjectToPool: {fileID: 100002, guid: cc0f00f0ef87ef147a95e9d24ff60702, type: 3}
   PoolSize: 20
   PoolCanExpand: 1
 --- !u!1 &1000013730713990
@@ -9752,7 +9751,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0e1495cd2b1257b419c4c5668cd82472, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
