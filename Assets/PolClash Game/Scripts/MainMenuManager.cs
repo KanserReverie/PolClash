@@ -185,25 +185,21 @@ namespace PolClash_Game.Scripts
         private void LevelSelectSchoolGround()
         {
             politicalManager.levelSelected = Level.SchoolGround;
-            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
         }
 
         private void LevelSelectOperaHouse()
         {
             politicalManager.levelSelected = Level.OperaHouse;
-            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
         }
 
         private void LevelSelectMaccas()
         {
             politicalManager.levelSelected = Level.Maccas;
-            Debug.Log("Plz Now Load A Level -LOGIC HERE-");
         }
         
         private void LevelSelectExitButton()
         {
             MenuSelected(MainMenuMenus.StartPage);
-            Debug.Log("-Please Start Again-");
         }
     }
 }

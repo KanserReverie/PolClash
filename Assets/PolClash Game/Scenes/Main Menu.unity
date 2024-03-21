@@ -2306,7 +2306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1368174427
 Transform:
   m_ObjectHideFlags: 0
@@ -2471,6 +2471,7 @@ GameObject:
   - component: {fileID: 1480283475}
   - component: {fileID: 1480283474}
   - component: {fileID: 1480283477}
+  - component: {fileID: 1480283478}
   m_Layer: 5
   m_Name: Opera House Button
   m_TagString: Untagged
@@ -2543,7 +2544,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1480283475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480283478}
+        m_TargetAssemblyTypeName: MoreMountains.CorgiEngine.LevelSelector, MoreMountains.CorgiEngine
+        m_MethodName: GoToLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1480283475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,6 +2608,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageToTurnOn: {fileID: 668823126}
+--- !u!114 &1480283478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480283472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d042072253d11428147ba0d074fa39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelName: Fighting Duel
+  Fade: 1
+  Save: 0
 --- !u!1 &1497233269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2608,6 +2636,7 @@ GameObject:
   - component: {fileID: 1497233272}
   - component: {fileID: 1497233271}
   - component: {fileID: 1497233274}
+  - component: {fileID: 1497233275}
   m_Layer: 5
   m_Name: Maccas Button
   m_TagString: Untagged
@@ -2680,7 +2709,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1497233272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1497233275}
+        m_TargetAssemblyTypeName: MoreMountains.CorgiEngine.LevelSelector, MoreMountains.CorgiEngine
+        m_MethodName: GoToLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1497233272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2732,6 +2773,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageToTurnOn: {fileID: 2069999668}
+--- !u!114 &1497233275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497233269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d042072253d11428147ba0d074fa39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelName: Fighting Duel
+  Fade: 1
+  Save: 0
 --- !u!1 &1503588557
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,6 +4574,7 @@ GameObject:
   - component: {fileID: 2021488083}
   - component: {fileID: 2021488082}
   - component: {fileID: 2021488085}
+  - component: {fileID: 2021488086}
   m_Layer: 5
   m_Name: School Ground Button
   m_TagString: Untagged
@@ -4590,7 +4647,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2021488083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2021488086}
+        m_TargetAssemblyTypeName: MoreMountains.CorgiEngine.LevelSelector, MoreMountains.CorgiEngine
+        m_MethodName: GoToLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2021488083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4642,6 +4711,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageToTurnOn: {fileID: 731184815}
+--- !u!114 &2021488086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021488080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d042072253d11428147ba0d074fa39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelName: Fighting Duel
+  Fade: 1
+  Save: 0
 --- !u!1 &2037005513
 GameObject:
   m_ObjectHideFlags: 0
