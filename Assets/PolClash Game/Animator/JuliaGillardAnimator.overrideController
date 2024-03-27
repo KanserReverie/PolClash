@@ -7,5 +7,19 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: JuliaGillardAnimator
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 8c016e31fcc98d44bae36a804d49360a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1254f5d4ab8c3df4cb1cdd016fe58bb5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1254f5d4ab8c3df4cb1cdd016fe58bb5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 83722d6f1b185af4cb7e8483ff5095c4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 83722d6f1b185af4cb7e8483ff5095c4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 36cf7c34993a2e5409b7d65c73b03e2b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cdfb1b1d14ef10d4790ff9bf5745089c, type: 2}
+  - m_OriginalClip: {fileID: 7486066, guid: f5ebee6ee71717f41a90ce9e632329fc, type: 2}
+    m_OverrideClip: {fileID: 7486066, guid: f5ebee6ee71717f41a90ce9e632329fc, type: 2}
+  - m_OriginalClip: {fileID: 74000013950110618, guid: 8c016e31fcc98d44bae36a804d49360a,
+      type: 2}
+    m_OverrideClip: {fileID: 7401938, guid: f5ebee6ee71717f41a90ce9e632329fc, type: 2}
+  - m_OriginalClip: {fileID: 74000012669559868, guid: 8c016e31fcc98d44bae36a804d49360a,
+      type: 2}
+    m_OverrideClip: {fileID: 7493766, guid: f5ebee6ee71717f41a90ce9e632329fc, type: 2}
