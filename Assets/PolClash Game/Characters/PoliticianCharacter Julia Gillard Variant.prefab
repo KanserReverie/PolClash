@@ -62,6 +62,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 933a0909e061cfd4f9a9a7c0ff5df775,
         type: 3}
+    - target: {fileID: 3410813164427543765, guid: f98a01a32fd172f449879581d6ab5715,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4791481602008110626, guid: f98a01a32fd172f449879581d6ab5715,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -103,6 +108,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 22100000, guid: 445c99888bb5c224eb27e088274686f2,
         type: 2}
+    - target: {fileID: 6814371141607316467, guid: f98a01a32fd172f449879581d6ab5715,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1646213602, guid: 8b706265ecba2a141a940d96a058e3fc,
+        type: 3}
     - target: {fileID: 6814371141607316467, guid: f98a01a32fd172f449879581d6ab5715,
         type: 3}
       propertyPath: m_Color.b
