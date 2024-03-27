@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe6e59875510a1f46ab045a9b8ba679a
+guid: 8b706265ecba2a141a940d96a058e3fc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Suit runs 2_0
+      name: Punching [Red Suit]_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 94
-        width: 160
+        x: 33
+        y: 93
+        width: 150
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -124,19 +124,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d063cbe983eb9cf4587c2a8b9a7bbe20
-      internalID: 1792171089
+      spriteID: d1ba37dded58b1e42b1f84d8cbb9739c
+      internalID: 1446057225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suit runs 2_1
+      name: Punching [Red Suit]_1
       rect:
         serializedVersion: 2
-        x: 221
+        x: 171
+        y: 90
+        width: 150
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7dd820b7aed9b43b7939398657f44c
+      internalID: 367084125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punching [Red Suit]_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 90
+        width: 150
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f796e670eb1c8a408d3597b09731cfe
+      internalID: 170204189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punching [Red Suit]_3
+      rect:
+        serializedVersion: 2
+        x: 481
         y: 91
-        width: 160
+        width: 150
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -145,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d94a710f4189d4ab8cd92f40beecb1
-      internalID: 2145471025
+      spriteID: baf25ae8249601741b90cabc0ca86bed
+      internalID: -1972654440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suit runs 2_2
+      name: Punching [Red Suit]_4
       rect:
         serializedVersion: 2
-        x: 434
-        y: 78
-        width: 160
+        x: 634
+        y: 94
+        width: 144
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -166,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7077dcfb28cbc4ea721dac74be6a0d
-      internalID: 102881136
+      spriteID: 7ca955fc1f1f39442a63a5109f4256e4
+      internalID: 1772112441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suit runs 2_3
+      name: Punching [Red Suit]_5
       rect:
         serializedVersion: 2
-        x: 622
-        y: 86
-        width: 160
+        x: 780
+        y: 102
+        width: 151
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -187,19 +229,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c6c4abe2b5b6724c9a52a046b3c91c8
-      internalID: 61480515
+      spriteID: 80699f4052fa2d0408581331c380f586
+      internalID: -1621652887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suit runs 2_4
+      name: Punching [Red Suit]_6
       rect:
         serializedVersion: 2
-        x: 844
-        y: 79
-        width: 160
+        x: 937
+        y: 101
+        width: 150
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -208,19 +250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b59a0889f7300544ba4da63c701630d4
-      internalID: 838001736
+      spriteID: 46db93a0d4102a54cb968779ef383417
+      internalID: 1170656027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suit runs 2_5
+      name: Punching [Red Suit]_7
       rect:
         serializedVersion: 2
-        x: 1046
-        y: 76
-        width: 160
+        x: 1089
+        y: 97
+        width: 150
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -229,8 +271,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c196cb4a06d82594d9dbf52a1ae2985e
-      internalID: -2104729300
+      spriteID: 872c476b85e2ee74595b6f164a36d19f
+      internalID: 1126844917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punching [Red Suit]_8
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 98
+        width: 150
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743bbd8141ab56240be9151253500804
+      internalID: 1646213602
       vertices: []
       indices: 
       edges: []
@@ -246,14 +309,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Suit runs 2_0: 1792171089
-      Suit runs 2_1: 2145471025
-      Suit runs 2_2: 102881136
-      Suit runs 2_3: 61480515
-      Suit runs 2_4: 838001736
-      Suit runs 2_5: -2104729300
-      Suit runs 2_6: -435804711
-      Suit runs 2_7: 691498601
+      Punching [Red Suit]_0: 1446057225
+      Punching [Red Suit]_1: 367084125
+      Punching [Red Suit]_2: 170204189
+      Punching [Red Suit]_3: -1972654440
+      Punching [Red Suit]_4: 1772112441
+      Punching [Red Suit]_5: -1621652887
+      Punching [Red Suit]_6: 1170656027
+      Punching [Red Suit]_7: 1126844917
+      Punching [Red Suit]_8: 1646213602
+      Punching [Red Suit]_9: 1625952337
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

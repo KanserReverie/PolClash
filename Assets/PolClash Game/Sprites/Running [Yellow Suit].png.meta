@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79883f4266241ce498f2e1332edf101d
+guid: edc38d9faeda36a4ab3c89c2ae966099
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,8 +46,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,96 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Punching 3_0
+      name: Running [Yellow Suit]_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 93
-        width: 150
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd6c1acc9a7161344bcb29a9ee0faaa7
-      internalID: 1062804512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Punching 3_1
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 90
-        width: 150
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be35ae2d0509c1745bc183ef51b9b8dd
-      internalID: -579271077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Punching 3_2
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 90
-        width: 150
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12bcd84b4da3105469db98ae283e312a
-      internalID: -1971014891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Punching 3_3
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 91
-        width: 150
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20b4bac5099008846afd95f37e8eea18
-      internalID: 1262864563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Punching 3_4
-      rect:
-        serializedVersion: 2
-        x: 634
+        x: 27
         y: 94
-        width: 144
+        width: 160
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -208,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be7c2fab80700424c9262e7a2f63ae3f
-      internalID: -1482120311
+      spriteID: 465229f68c774dd489b605827c877ab7
+      internalID: -11361565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punching 3_7
+      name: Running [Yellow Suit]_1
       rect:
         serializedVersion: 2
-        x: 780
-        y: 102
-        width: 151
+        x: 221
+        y: 91
+        width: 160
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -229,19 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34ec9315b0d439f48828979d04313323
-      internalID: -876644956
+      spriteID: 950eae4ef393ba449a4d4be08cd7dc97
+      internalID: 1288338647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punching 3_8
+      name: Running [Yellow Suit]_2
       rect:
         serializedVersion: 2
-        x: 937
-        y: 101
-        width: 150
+        x: 434
+        y: 78
+        width: 160
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -250,19 +166,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a9d55686d83dc43865c6f182f83d37
-      internalID: 1364176243
+      spriteID: f7e70aa0cf78e344ea59db8221860f2e
+      internalID: 2041841819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punching 3_10
+      name: Running [Yellow Suit]_3
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 97
-        width: 150
+        x: 622
+        y: 86
+        width: 160
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -271,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b5ed5449c14030409c95c35be21fb93
-      internalID: 1367677998
+      spriteID: ca60ba9a75afb3a42a2085abbf775de7
+      internalID: -1121917422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punching 3_11
+      name: Running [Yellow Suit]_4
       rect:
         serializedVersion: 2
-        x: 1238
-        y: 98
-        width: 150
+        x: 844
+        y: 79
+        width: 160
         height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -292,8 +208,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d917d242e7e15b4faf7c9a887255641
-      internalID: 1702607285
+      spriteID: 100f28f8bcc769f4aa8aa40b46b966cf
+      internalID: -301626448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running [Yellow Suit]_5
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 76
+        width: 160
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8792497694f4034c8e209e9442f1c5f
+      internalID: 683955756
       vertices: []
       indices: 
       edges: []
@@ -309,18 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Punching 3_0: 1062804512
-      Punching 3_1: -579271077
-      Punching 3_10: 1367677998
-      Punching 3_11: 1702607285
-      Punching 3_2: -1971014891
-      Punching 3_3: 1262864563
-      Punching 3_4: -1482120311
-      Punching 3_5: 1027193429
-      Punching 3_6: 365596763
-      Punching 3_7: -876644956
-      Punching 3_8: 1364176243
-      Punching 3_9: 730714096
+      Running [Yellow Suit]_0: -11361565
+      Running [Yellow Suit]_1: 1288338647
+      Running [Yellow Suit]_2: 2041841819
+      Running [Yellow Suit]_3: -1121917422
+      Running [Yellow Suit]_4: -301626448
+      Running [Yellow Suit]_5: 683955756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
